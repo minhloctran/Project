@@ -1,0 +1,26 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+double addNumber()
+{
+  int x;
+  int y;
+  double c;
+  cout<<"Enter the first value: ";
+  cin>>x;
+  cout<<"Enter the second value: ";
+  cin>>y;
+  cout<<"Enter the third value: ";
+  cin>>c;
+  
+  double answer = x * y * c;
+  return answer;
+  
+}
+
+int main()
+{
+  cout<<addNumber();
+  return 0;
+}
